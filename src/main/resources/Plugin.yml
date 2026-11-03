@@ -1,0 +1,13 @@
+name: ChickCore
+version: 1.0
+main: com.drducky010.chickcore.ChickCore
+api-version: '1.21'
+commands:
+  chick:
+    description: Main command for ChickMC!
+    permission: chick.admin
+    usage: /chick
+  offend:
+    description: Issue an offense action with a specified duration and reason.
+    permission: chick.offend
+    usage: /offend <player> <duration> [reason...]
